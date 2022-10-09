@@ -5,56 +5,54 @@
 
 body {
     font-family: Verdana, Arial, Tahoma, Serif;
+    padding: 10px;
     
 }
 
-h1{
-    margin: 15px 0 15px 0;
-    text-align: center;
-    font-size: 1.75rem;
+h1 {
+  text-align: center;
+  margin: 20px 0 20px 0;
 }
 
-.row {
-    width: 100%;
+p {
+  text-indent: 2rem;
 }
-
-section {
-    background-color: rgba(198, 206, 211, 0.829);
-    border: 1px solid black;
-    padding: 50px 20px 20px 20px;
-    width: 100%;
-    position: relative;
-}
- section > p {
-    text-indent: 50px;
- }
 
 .item {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 1.25rem;
-    border: 1px solid black;
-    width: 200px;
-    float: right;
-    text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 1.25rem;
 }
 
 ._1 {
-    background-color: rgba(200, 100, 162, 0.5);
+  background-color: rgb(204, 123, 123);
 }
 
 ._2 {
-    background-color: rgba(200, 200, 100, 0.5);
+  background-color: rgb(204, 182, 123);
 }
 
 ._3 {
-    background-color: rgba(200, 168, 100, 0.5);
+  background-color: rgb(123, 185, 204);
 }
 
-.pad {
-    padding: 0px 10px 10px 10px;
+section {
+padding: 10px 10px 10px 10px;
+}
+
+section > div {
+  background-color: rgb(173, 173, 173);
+  position: relative;
+  padding: 45px 10px 10px 10px;
+  border: 2px solid black;
+
 }
 
 
@@ -65,13 +63,8 @@ section {
       float: left;
     }
 
-    .noRightPad {
-        padding-right: 0px;
-    }
-
-    section {
-        height: 350px;
-    }
+   
+    
 
     .col-lg-1 {
       width: 8.33%;
@@ -117,9 +110,7 @@ section {
       float: left;
     }
 
-    section {
-        height: 300px;
-    }
+   
 
     .noLeftPad {
         padding-left: 0px;
